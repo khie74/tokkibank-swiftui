@@ -14,6 +14,10 @@
 		AD5070492A43C8540004C5BA /* TokkiBankSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5070482A43C8540004C5BA /* TokkiBankSwiftUITests.swift */; };
 		AD5070532A43C8540004C5BA /* TokkiBankSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5070522A43C8540004C5BA /* TokkiBankSwiftUIUITests.swift */; };
 		AD5070552A43C8540004C5BA /* TokkiBankSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5070542A43C8540004C5BA /* TokkiBankSwiftUIUITestsLaunchTests.swift */; };
+		AD5070622A43CDD80004C5BA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5070612A43CDD80004C5BA /* Extensions.swift */; };
+		AD5070662A4452A30004C5BA /* TabButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5070652A4452A30004C5BA /* TabButtonView.swift */; };
+		AD5070692A45E8A60004C5BA /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5070682A45E8A60004C5BA /* Asset.swift */; };
+		AD50706C2A45FFC20004C5BA /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = AD50706B2A45FFC20004C5BA /* SDWebImageSwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,9 @@
 		AD50704E2A43C8540004C5BA /* TokkiBankSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TokkiBankSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5070522A43C8540004C5BA /* TokkiBankSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokkiBankSwiftUIUITests.swift; sourceTree = "<group>"; };
 		AD5070542A43C8540004C5BA /* TokkiBankSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokkiBankSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AD5070612A43CDD80004C5BA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AD5070652A4452A30004C5BA /* TabButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButtonView.swift; sourceTree = "<group>"; };
+		AD5070682A45E8A60004C5BA /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +103,11 @@
 		AD5070352A43C8530004C5BA /* TokkiBankSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				AD5070672A45E8640004C5BA /* Model */,
 				AD5070362A43C8530004C5BA /* TokkiBankSwiftUIApp.swift */,
 				AD5070382A43C8530004C5BA /* ContentView.swift */,
+				AD5070652A4452A30004C5BA /* TabButtonView.swift */,
+				AD5070612A43CDD80004C5BA /* Extensions.swift */,
 				AD50703A2A43C8540004C5BA /* Assets.xcassets */,
 				AD50703C2A43C8540004C5BA /* TokkiBankSwiftUI.entitlements */,
 				AD50703D2A43C8540004C5BA /* Preview Content */,
@@ -130,6 +140,14 @@
 			path = TokkiBankSwiftUIUITests;
 			sourceTree = "<group>";
 		};
+		AD5070672A45E8640004C5BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD5070682A45E8A60004C5BA /* Asset.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +164,9 @@
 			dependencies = (
 			);
 			name = TokkiBankSwiftUI;
+			packageProductDependencies = (
+				AD50706B2A45FFC20004C5BA /* SDWebImageSwiftUI */,
+			);
 			productName = TokkiBankSwiftUI;
 			productReference = AD5070332A43C8530004C5BA /* TokkiBankSwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +239,9 @@
 				Base,
 			);
 			mainGroup = AD50702A2A43C8530004C5BA;
+			packageReferences = (
+				AD50706A2A45FFC20004C5BA /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = AD5070342A43C8530004C5BA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -260,7 +284,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD5070662A4452A30004C5BA /* TabButtonView.swift in Sources */,
 				AD5070392A43C8530004C5BA /* ContentView.swift in Sources */,
+				AD5070692A45E8A60004C5BA /* Asset.swift in Sources */,
+				AD5070622A43CDD80004C5BA /* Extensions.swift in Sources */,
 				AD5070372A43C8530004C5BA /* TokkiBankSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -613,6 +640,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AD50706A2A45FFC20004C5BA /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AD50706B2A45FFC20004C5BA /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD50706A2A45FFC20004C5BA /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AD50702B2A43C8530004C5BA /* Project object */;
 }
