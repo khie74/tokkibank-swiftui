@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD5070372A43C8530004C5BA /* TokkiBankSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5070362A43C8530004C5BA /* TokkiBankSwiftUIApp.swift */; };
+		AD5070392A43C8530004C5BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5070382A43C8530004C5BA /* ContentView.swift */; };
+		AD50703B2A43C8540004C5BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD50703A2A43C8540004C5BA /* Assets.xcassets */; };
+		AD50703F2A43C8540004C5BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD50703E2A43C8540004C5BA /* Preview Assets.xcassets */; };
+		AD5070492A43C8540004C5BA /* TokkiBankSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5070482A43C8540004C5BA /* TokkiBankSwiftUITests.swift */; };
+		AD5070532A43C8540004C5BA /* TokkiBankSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5070522A43C8540004C5BA /* TokkiBankSwiftUIUITests.swift */; };
+		AD5070552A43C8540004C5BA /* TokkiBankSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5070542A43C8540004C5BA /* TokkiBankSwiftUIUITestsLaunchTests.swift */; };
+		AD5070622A43CDD80004C5BA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5070612A43CDD80004C5BA /* Extensions.swift */; };
+		AD5070662A4452A30004C5BA /* TabButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5070652A4452A30004C5BA /* TabButtonView.swift */; };
+		AD5070692A45E8A60004C5BA /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5070682A45E8A60004C5BA /* Asset.swift */; };
+		AD50706C2A45FFC20004C5BA /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = AD50706B2A45FFC20004C5BA /* SDWebImageSwiftUI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD5070452A43C8540004C5BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD50702B2A43C8530004C5BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD5070322A43C8530004C5BA;
+			remoteInfo = TokkiBankSwiftUI;
+		};
+		AD50704F2A43C8540004C5BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD50702B2A43C8530004C5BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD5070322A43C8530004C5BA;
+			remoteInfo = TokkiBankSwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD5070332A43C8530004C5BA /* TokkiBankSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TokkiBankSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD5070362A43C8530004C5BA /* TokkiBankSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokkiBankSwiftUIApp.swift; sourceTree = "<group>"; };
+		AD5070382A43C8530004C5BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD50703A2A43C8540004C5BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD50703C2A43C8540004C5BA /* TokkiBankSwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TokkiBankSwiftUI.entitlements; sourceTree = "<group>"; };
+		AD50703E2A43C8540004C5BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD5070442A43C8540004C5BA /* TokkiBankSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TokkiBankSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD5070482A43C8540004C5BA /* TokkiBankSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokkiBankSwiftUITests.swift; sourceTree = "<group>"; };
+		AD50704E2A43C8540004C5BA /* TokkiBankSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TokkiBankSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD5070522A43C8540004C5BA /* TokkiBankSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokkiBankSwiftUIUITests.swift; sourceTree = "<group>"; };
+		AD5070542A43C8540004C5BA /* TokkiBankSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokkiBankSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AD5070612A43CDD80004C5BA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AD5070652A4452A30004C5BA /* TabButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButtonView.swift; sourceTree = "<group>"; };
+		AD5070682A45E8A60004C5BA /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD5070302A43C8530004C5BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD50706C2A45FFC20004C5BA /* SDWebImageSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5070412A43C8540004C5BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD50704B2A43C8540004C5BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD50702A2A43C8530004C5BA = {
+			isa = PBXGroup;
+			children = (
+				AD5070352A43C8530004C5BA /* TokkiBankSwiftUI */,
+				AD5070472A43C8540004C5BA /* TokkiBankSwiftUITests */,
+				AD5070512A43C8540004C5BA /* TokkiBankSwiftUIUITests */,
+				AD5070342A43C8530004C5BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD5070342A43C8530004C5BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD5070332A43C8530004C5BA /* TokkiBankSwiftUI.app */,
+				AD5070442A43C8540004C5BA /* TokkiBankSwiftUITests.xctest */,
+				AD50704E2A43C8540004C5BA /* TokkiBankSwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD5070352A43C8530004C5BA /* TokkiBankSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				AD5070672A45E8640004C5BA /* Model */,
+				AD5070362A43C8530004C5BA /* TokkiBankSwiftUIApp.swift */,
+				AD5070382A43C8530004C5BA /* ContentView.swift */,
+				AD5070652A4452A30004C5BA /* TabButtonView.swift */,
+				AD5070612A43CDD80004C5BA /* Extensions.swift */,
+				AD50703A2A43C8540004C5BA /* Assets.xcassets */,
+				AD50703C2A43C8540004C5BA /* TokkiBankSwiftUI.entitlements */,
+				AD50703D2A43C8540004C5BA /* Preview Content */,
+			);
+			path = TokkiBankSwiftUI;
+			sourceTree = "<group>";
+		};
+		AD50703D2A43C8540004C5BA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AD50703E2A43C8540004C5BA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD5070472A43C8540004C5BA /* TokkiBankSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD5070482A43C8540004C5BA /* TokkiBankSwiftUITests.swift */,
+			);
+			path = TokkiBankSwiftUITests;
+			sourceTree = "<group>";
+		};
+		AD5070512A43C8540004C5BA /* TokkiBankSwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD5070522A43C8540004C5BA /* TokkiBankSwiftUIUITests.swift */,
+				AD5070542A43C8540004C5BA /* TokkiBankSwiftUIUITestsLaunchTests.swift */,
+			);
+			path = TokkiBankSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		AD5070672A45E8640004C5BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD5070682A45E8A60004C5BA /* Asset.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD5070322A43C8530004C5BA /* TokkiBankSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD5070582A43C8540004C5BA /* Build configuration list for PBXNativeTarget "TokkiBankSwiftUI" */;
+			buildPhases = (
+				AD50702F2A43C8530004C5BA /* Sources */,
+				AD5070302A43C8530004C5BA /* Frameworks */,
+				AD5070312A43C8530004C5BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TokkiBankSwiftUI;
+			packageProductDependencies = (
+				AD50706B2A45FFC20004C5BA /* SDWebImageSwiftUI */,
+			);
+			productName = TokkiBankSwiftUI;
+			productReference = AD5070332A43C8530004C5BA /* TokkiBankSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD5070432A43C8540004C5BA /* TokkiBankSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD50705B2A43C8540004C5BA /* Build configuration list for PBXNativeTarget "TokkiBankSwiftUITests" */;
+			buildPhases = (
+				AD5070402A43C8540004C5BA /* Sources */,
+				AD5070412A43C8540004C5BA /* Frameworks */,
+				AD5070422A43C8540004C5BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD5070462A43C8540004C5BA /* PBXTargetDependency */,
+			);
+			name = TokkiBankSwiftUITests;
+			productName = TokkiBankSwiftUITests;
+			productReference = AD5070442A43C8540004C5BA /* TokkiBankSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD50704D2A43C8540004C5BA /* TokkiBankSwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD50705E2A43C8540004C5BA /* Build configuration list for PBXNativeTarget "TokkiBankSwiftUIUITests" */;
+			buildPhases = (
+				AD50704A2A43C8540004C5BA /* Sources */,
+				AD50704B2A43C8540004C5BA /* Frameworks */,
+				AD50704C2A43C8540004C5BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD5070502A43C8540004C5BA /* PBXTargetDependency */,
+			);
+			name = TokkiBankSwiftUIUITests;
+			productName = TokkiBankSwiftUIUITests;
+			productReference = AD50704E2A43C8540004C5BA /* TokkiBankSwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD50702B2A43C8530004C5BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AD5070322A43C8530004C5BA = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					AD5070432A43C8540004C5BA = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = AD5070322A43C8530004C5BA;
+					};
+					AD50704D2A43C8540004C5BA = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = AD5070322A43C8530004C5BA;
+					};
+				};
+			};
+			buildConfigurationList = AD50702E2A43C8530004C5BA /* Build configuration list for PBXProject "TokkiBankSwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD50702A2A43C8530004C5BA;
+			packageReferences = (
+				AD50706A2A45FFC20004C5BA /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			productRefGroup = AD5070342A43C8530004C5BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD5070322A43C8530004C5BA /* TokkiBankSwiftUI */,
+				AD5070432A43C8540004C5BA /* TokkiBankSwiftUITests */,
+				AD50704D2A43C8540004C5BA /* TokkiBankSwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD5070312A43C8530004C5BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD50703F2A43C8540004C5BA /* Preview Assets.xcassets in Resources */,
+				AD50703B2A43C8540004C5BA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5070422A43C8540004C5BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD50704C2A43C8540004C5BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD50702F2A43C8530004C5BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5070662A4452A30004C5BA /* TabButtonView.swift in Sources */,
+				AD5070392A43C8530004C5BA /* ContentView.swift in Sources */,
+				AD5070692A45E8A60004C5BA /* Asset.swift in Sources */,
+				AD5070622A43CDD80004C5BA /* Extensions.swift in Sources */,
+				AD5070372A43C8530004C5BA /* TokkiBankSwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5070402A43C8540004C5BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5070492A43C8540004C5BA /* TokkiBankSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD50704A2A43C8540004C5BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5070532A43C8540004C5BA /* TokkiBankSwiftUIUITests.swift in Sources */,
+				AD5070552A43C8540004C5BA /* TokkiBankSwiftUIUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD5070462A43C8540004C5BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD5070322A43C8530004C5BA /* TokkiBankSwiftUI */;
+			targetProxy = AD5070452A43C8540004C5BA /* PBXContainerItemProxy */;
+		};
+		AD5070502A43C8540004C5BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD5070322A43C8530004C5BA /* TokkiBankSwiftUI */;
+			targetProxy = AD50704F2A43C8540004C5BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD5070562A43C8540004C5BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD5070572A43C8540004C5BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AD5070592A43C8540004C5BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TokkiBankSwiftUI/TokkiBankSwiftUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TokkiBankSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 6Q3CXP7MWK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.espressobook.TokkiBankSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD50705A2A43C8540004C5BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TokkiBankSwiftUI/TokkiBankSwiftUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TokkiBankSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 6Q3CXP7MWK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.espressobook.TokkiBankSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD50705C2A43C8540004C5BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Q3CXP7MWK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.espressobook.TokkiBankSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TokkiBankSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TokkiBankSwiftUI";
+			};
+			name = Debug;
+		};
+		AD50705D2A43C8540004C5BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Q3CXP7MWK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.espressobook.TokkiBankSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TokkiBankSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TokkiBankSwiftUI";
+			};
+			name = Release;
+		};
+		AD50705F2A43C8540004C5BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Q3CXP7MWK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.espressobook.TokkiBankSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TokkiBankSwiftUI;
+			};
+			name = Debug;
+		};
+		AD5070602A43C8540004C5BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Q3CXP7MWK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.espressobook.TokkiBankSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TokkiBankSwiftUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD50702E2A43C8530004C5BA /* Build configuration list for PBXProject "TokkiBankSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD5070562A43C8540004C5BA /* Debug */,
+				AD5070572A43C8540004C5BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD5070582A43C8540004C5BA /* Build configuration list for PBXNativeTarget "TokkiBankSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD5070592A43C8540004C5BA /* Debug */,
+				AD50705A2A43C8540004C5BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD50705B2A43C8540004C5BA /* Build configuration list for PBXNativeTarget "TokkiBankSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD50705C2A43C8540004C5BA /* Debug */,
+				AD50705D2A43C8540004C5BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD50705E2A43C8540004C5BA /* Build configuration list for PBXNativeTarget "TokkiBankSwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD50705F2A43C8540004C5BA /* Debug */,
+				AD5070602A43C8540004C5BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AD50706A2A45FFC20004C5BA /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AD50706B2A45FFC20004C5BA /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD50706A2A45FFC20004C5BA /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AD50702B2A43C8530004C5BA /* Project object */;
+}
